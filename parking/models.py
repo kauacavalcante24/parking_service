@@ -61,12 +61,10 @@ class ParkingRecord(models.Model):
         verbose_name='Atualizado em'
     )
 
-
     class Meta:
         ordering = ['created_at']
         verbose_name = 'Registro'
         verbose_name_plural = 'Registros'
-
 
     def __str__(self):
         return f'{self.vehicle} - {self.parking_spot} - {self.entry_time}'
