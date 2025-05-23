@@ -1,7 +1,7 @@
 # Projeto Parking Service
 API de Estacionamento com Python e Django
 
-## Requistos do Sistema
+## Requisitos do Sistema
 
 ### Funcionais
 
