@@ -24,3 +24,5 @@ API de Estacionamento com Python e Django
 - API Restfull
 - Linter e pep08 (flake8)
 - JWT token para API
+- RQL para filtros
+- Documentação da API (swagger)
