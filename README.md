@@ -47,7 +47,7 @@ API de Estacionamento com Python e Django
 - Com a venv ativada, você poderá instalar todos os pacotes necessários para o projeto rodar:
     <pre> pip install -r requirements.txt </pre>
    
-- Suba as tabelas do banco de dados:
+- Suba as tabelas no banco de dados:
     <pre> python manage.py makemigrations </pre>
     <pre> python manage.py migrate </pre>
 
