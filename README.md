@@ -35,14 +35,16 @@ API de Estacionamento com Python e Django
       <pre> python -m venv venv </pre>
       
 - Após criar a venv, ative ela:
+  <pre> 
       Windows (cmd):
-      <pre> venv\Scripts\activate </pre>
+      <pre> venv\Scripts\activate
 
       Windows (PowerShell):
-      <pre> .\venv\Scripts\activate </pre>
+      .\venv\Scripts\activate
   
       Linux/macOS:
-      <pre> source venv/bin/activate </pre>
+      source venv/bin/activate
+  </pre>
 
 - Com a venv ativada, você poderá instalar todos os pacotes necessários para o projeto rodar:
       <pre> pip install -r requirements.txt </pre>
@@ -52,7 +54,7 @@ API de Estacionamento com Python e Django
       <pre> python manage.py migrate </pre>
 
 - Crie um super usuário para acessar o Sistema de Administração:
-      <pre> django-admin createsuperuser </pre>
+      <pre> python manage.py createsuperuser </pre>
 
 - Após isso, ligue o servidor:
       <pre> python manage.py runserver </pre>
